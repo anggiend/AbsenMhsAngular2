@@ -14,8 +14,7 @@ var forms_1 = require('@angular/forms');
 var http_1 = require('@angular/http');
 var app_component_1 = require('./app.component');
 var app_routing_module_1 = require('./app-routing.module');
-//fakebackend 
-//authentication
+var home_component_1 = require('./home/home.component');
 var AppModule = (function () {
     function AppModule() {
     }
@@ -28,6 +27,8 @@ var AppModule = (function () {
                 http_1.HttpModule,
             ],
             declarations: [
+                app_component_1.AppComponent,
+                home_component_1.HomeComponent,
                 app_component_1.AppComponent,
             ],
             providers: [],

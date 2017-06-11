@@ -4,10 +4,7 @@ import { FormsModule }    from '@angular/forms';
 import { HttpModule }     from '@angular/http';
 import { AppComponent }         from './app.component';
 import { AppRoutingModule }     from './app-routing.module';
-
-
-//fakebackend 
-//authentication
+import { HomeComponent }    from './home/home.component';
 
 @NgModule({
   imports: [
@@ -18,13 +15,12 @@ import { AppRoutingModule }     from './app-routing.module';
   ],
   declarations: [
     AppComponent,
-
-
+    HomeComponent,
+    AppComponent,
   ],
    providers: [
-
-
   ],
+  
   bootstrap: [ AppComponent ]
 })
 
