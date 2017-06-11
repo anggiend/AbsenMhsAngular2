@@ -12,6 +12,7 @@ var http_1 = require("@angular/http");
 var app_component_1 = require("./app.component");
 var app_routing_module_1 = require("./app-routing.module");
 var home_component_1 = require("./home/home.component");
+var rekap_component_1 = require("./rekap/rekap.component");
 var AppModule = (function () {
     function AppModule() {
     }
@@ -29,6 +30,7 @@ AppModule = __decorate([
             app_component_1.AppComponent,
             home_component_1.HomeComponent,
             app_component_1.AppComponent,
+            rekap_component_1.RekapComponent,
         ],
         providers: [],
         bootstrap: [app_component_1.AppComponent]
